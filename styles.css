@@ -4,27 +4,38 @@
 
 html, body {
 	margin: 0;
+	margin-bottom: 54px;
+	font-family: 'Mada', sans-serif;
 }
 
 header, footer {
+	background-color: red;
+	color: white;
+	padding-top: 10px;
 
+	
 }
 
 .centered {
+	width: 60%;
+	margin: auto;
+	height: 180px;
 
 }
 
 header .subtitle {
+	
 
 }
 
 h1 {
-
+	text-transform: uppercase;
 }
 
 ul {
 	display: flex;
 	flex-wrap: wrap;
+
 }
 
 ul li {
@@ -36,32 +47,49 @@ main {
 }
 
 section {
+	width: 50%;
+	margin: auto;
+	color: red;
 
 }
 
 h2 {
+	border-bottom: 1px solid red;
+	padding-bottom: 3px;
 
 }
+
 
 h3 {
+	padding-left: 40px;
 
 }
 
-p {
+article p {
+	color: black;
+	line-height: 1px;
+	padding-left: 40px;
+
+	
 
 }
 
 .details {
+	color: red;
+
 
 }
 
 .object {
+	font-weight: 700;
 
 }
 
 .object:after {
 	content: " | ";
+	
 }
+
 
 footer h2 {
 
